@@ -11,7 +11,7 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header-container">
       <h1 class="hero-logo">Awesome Coffee</h1>
       <nav>
         <ul class="nav-links">
@@ -30,17 +30,39 @@
   </header>
   <main class="main">
     <section id="hero">
-      <div class="container gap-40 flex-wrap-reverse">
+      <div class="container hero-container gap-40 flex-wrap-reverse">
         <div class="hero-heading-container">
           <h2 class="hero-subject">This coffee is awesome</h2>
           <p class="hero-lead">You won't believe how good it taste. It's roasted dark with bold and deep flavors. Buy
             you some today.</p>
           <button class="hero-button">Buy Now</button>
         </div>
-        <img src="images/coffee_image.jpg" alt="coffee-beans" class="hero-image" />
+        <img src="images/coffee-image.jpg" alt="coffee-beans" class="hero-image" />
       </div>
     </section>
-    <section id="info"></section>
+    <section id="info">
+      <div class="container info-container">
+        <h1 class="info-header">How we do it</h1>
+        <div class="info-items">
+          <div class="info-item">
+            <img class="info-image" src="images/green-coffee.jpg" alt="green coffee beans" />
+            <p>We source it</p>
+          </div>
+          <div class="info-item">
+            <img class="info-image" src="images/coffee-roasting.jpg" alt="roasting coffee beans" />
+            <p>We roast it</p>
+          </div>
+          <div class="info-item">
+            <img class="info-image" src="images/brew-coffee.jpg" alt="brewing coffee" />
+            <p>We brew it</p>
+          </div>
+          <div class="info-item">
+            <img class="info-image" src="images/coffee-cup.jpg" alt="coffee in a cup" />
+            <p>We serve it</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="quote"></section>
     <section id="callToAction"></section>
   </main>
