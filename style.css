@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
-  --dark-background-color: #1f2937;
-  --primary-text-color: #f9faf8;
-  --secondary-text-color: #e5e7eb;
-  --tertiary-text-color: #1f2937;
+  --dark-color: #1f2937;
+  --primary-color: #f9faf8;
+  --secondary-color: #e5e7eb;
   --accent-color: #3882f6;
 }
 
@@ -10,7 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans';
 }
 
 .container {
@@ -40,7 +41,7 @@
 
 .header {
   display: flex;
-  background-color: var(--dark-background-color);
+  background-color: var(--dark-color);
   justify-content: center;
   padding-top: 16px;
   padding-left: 32px;
@@ -50,7 +51,7 @@
 
 .hero-logo {
   font-size: 24px;
-  color: var(--primary-text-color);
+  color: var(--primary-color);
 }
 
 .nav-links {
@@ -61,7 +62,7 @@
 
 .nav-link {
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: var(--secondary-color);
   font-size: 18px;
 }
 
@@ -81,7 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--dark-background-color);
+  background-color: var(--dark-color);
   padding: 100px 32px;
 }
 
@@ -91,13 +92,13 @@
 
 .hero-subject {
   font-size: 48px;
-  color: var(--primary-text-color);
+  color: var(--primary-color);
   font-weight: extra-bold;
 }
 
 .hero-lead {
   font-size: 18px;
-  color: var(--secondary-text-color);
+  color: var(--secondary-color);
   margin-bottom: 16px;
 }
 
@@ -136,7 +137,7 @@
 .info-header {
   font-size: 36px;
   font-weight: extra-bold;
-  color: var(--tertiary-text-color);
+  color: var(--dark-color);
   margin-bottom: 32px;
 }
 
@@ -163,12 +164,43 @@
   object-fit: cover;
 }
 
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 150px 32px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+
+.quote-author {
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+  align-self: flex-end;
+  padding-right: 32px;
+}
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--dark-background-color);
-  color: var(--secondary-text-color);
+  background-color: var(--dark-color);
+  color: var(--secondary-color);
   font-size: 18px;
   padding: 32px;
 }
