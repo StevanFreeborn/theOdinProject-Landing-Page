@@ -102,7 +102,7 @@
   margin-bottom: 16px;
 }
 
-.hero-button {
+.cta-button {
   background-color: var(--accent-color);
   color: white;
   border: 0;
@@ -190,9 +190,43 @@
 .quote-author {
   color: #1f2937;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   align-self: flex-end;
   padding-right: 32px;
+}
+
+#callToAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 32px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--accent-color);
+  padding: 32px 100px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  flex-wrap: wrap;
+}
+
+.cta-button-outline {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: 16px 0;
+}
+
+.cta-description {
+  margin: 16px 0;
 }
 
 .footer {
